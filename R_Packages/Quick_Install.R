@@ -39,7 +39,7 @@ for (package in packages) {
 ##      # Warning in install.packages :
 ##      #   installation of package ‘rJava’ had non-zero exit status
 ##
-## FYI: rJava & xlsxjars caused issues because of Java dependencies 
+## FYI: rJava & xlsxjars may cause issues because of Java dependencies 
 
 ## Load all the packages from the same list above
 lapply(packages, library, character.only = TRUE)

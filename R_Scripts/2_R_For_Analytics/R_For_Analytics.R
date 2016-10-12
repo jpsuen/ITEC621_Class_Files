@@ -369,7 +369,7 @@ mydata <- read.spss(file = "MyDataFile.sav", to.data.frame= TRUE, reencode = TRU
 
 # Data From Web Sites
 
-Require(XML) # You need this library
+require(XML) # You need this library
 URLToRead <- "http:// etc" # This is the URL for the HTML data
 MyData <- readHTMLTable(URLToRead, which=1, header=FALSE, stringsAsFactors=FALSE)
 

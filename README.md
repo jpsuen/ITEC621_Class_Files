@@ -10,7 +10,7 @@ I created this repo to handle a few tasks:
   2. Creating a quick script to replace the 'ITEC 621 R Packages.R' file for the following reasons
     - The original file cannot be quickly re-run to load all the required packages.
     - The original script attempts to re-install the packages if you select the whole thing to run
-  3. 2KSB makes it difficult to quickly view files that I just want to browse or double check something.  I added a MISC folder to accomodate these types of files
+  3. 2KSB makes it difficult to quickly view files that I just want to browse or double check something.  I added a MISC folder to accommodate these types of files
 
 ### File Structure
 

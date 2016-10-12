@@ -1,0 +1,129 @@
+---
+title: "ITEC 621 - Homework 1 - R Practice"
+author: "Your Name"
+date: "Month dd, yyyy"
+output: html_document
+---
+
+<span style="color:blue">*Note: save this file with the name HW1_YourLastName.Rmd [or HW2, etc.) and complete your homework in it.*</span>
+
+```{r global_options, include=FALSE}
+knitr::opts_chunk$set(echo=TRUE, warning=FALSE, message=FALSE)
+```
+
+Note: this is a template for HW1, but you should use a similar template for HW2, 3 and 4, and also for your final project. Treat this homework and your project as a report. Format it and present it in a way that is attractive, easy to follow and businesslike. All your work should be labeled, numbered (if appropriate) and introduced. Overall, you should follow a format like this:
+
+**Question Number or Item. Title.** Brief narrative about the work done for this question number or project item.
+
+```{r}
+# Enter all your R code for this question or item.
+```
+
+**Next Question or Item.** Explanation or narrative
+
+```{r}
+# More R code
+```
+
+
+For example, for Homework 1 you could do something like this:
+
+1. **Rectangle Area**
+
+```{r}
+```
+
+2. **Loop**
+
+```{r}
+```
+
+3. **Read .csv data file**
+
+```{r}
+```
+
+4. **lm() model, all variables **
+
+```{r}
+```
+
+5. **lm() model, 5 variables **
+
+```{r}
+```
+
+6. **Object's class**
+
+```{r}
+```
+
+7. **What do these classes mean?**
+
+```{r}
+```
+
+8. **Income.vect**
+
+```{r}
+```
+
+9. **Mean, minimum, maximum, standard deviation and variance**
+
+```{r}
+```
+
+10. **Income.stats** 
+
+```{r}
+```
+
+11. **Vector Names**
+
+```{r}
+```
+
+12. **5% Inflation**
+
+```{r}
+```
+
+13. **Income Boxplot**
+
+```{r}
+```
+
+14. **Income by Gender Boxplot**
+
+```{r}
+```
+
+15. **Plot Credit Rating vs. Income**
+
+```{r}
+```
+
+16. **Credit Rating Histogram**
+
+```{r}
+```
+
+17. **Credit Rating qqplot** 
+
+```{r}
+```
+
+18. **Is data normally distributed? Why or why not?**
+
+```{r}
+```
+
+19. **ggplot2 Histogram**
+
+```{r}
+```
+
+20. **Dual Line Plot**
+
+```{r}
+```

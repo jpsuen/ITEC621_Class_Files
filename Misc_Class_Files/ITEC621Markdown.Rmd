@@ -1,0 +1,97 @@
+---
+title: "ITEC 621 Markdown"
+author: "J. Alberto Espinosa"
+date: "September 20, 2015"
+output:
+  html_document:
+    toc: yes
+    tod_depth: 2
+---
+
+# About R Markdown
+
+R Markdown is a companion program to R Studio, which allows you 
+to create HTML, PDF and Word documents on the fly, which could 
+include R code and R output. For example, this document you are 
+reading is an R Markdown document. Markdown is a simple formatting 
+syntax for authoring HTML, PDF, and MS Word documents. 
+
+For more details on using R Markdown see http://rmarkdown.rstudio.com.
+
+Also, for a quick cheatsheet for R Markdown, see:
+https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf
+
+When you click the **Knit** button a document will be generated that 
+includes both content as well as the output of any embedded R code 
+chunks within the document. You can embed an R code chunk like this:
+
+Before you can use R Markdown you need to intsal the "rmarkdown" 
+package from the R Console, enter:
+
+> install.packages("rmarkdown")
+
+## A few basics:
+
+# Use a single pound sign for a level-1 header
+## Use two pound signs for a level-2 header, etc.
+
+- Markdown files work exactly like R Scripts, but they allow you 
+   to generate HTML, MS Word, PDF and other formats. 
+- From the menu, go File -> New File -> R Markdown -> Document. 
+  Then select the desired output format. 
+- The present R Markdown file outputs an HTML format, but you 
+  can select the format you wish
+- To do this, change the output above to either __pdf_document__ 
+  or __word_document__
+- Unfortunately the PDF and Word knitting processes have all kinds
+  of incompatibilities with Windows
+- In order to knit PDF documents you first need to install MikTex, 
+  which is a distribution of TeX or LaTex, which is a document 
+  production program designed to produce nicely formatted documents, 
+  especially when the document contains a lot of math
+- To learn more about MikTex and how to install it go to: 
+  http://miktex.org/
+- Anything you type in the R Markdown document can be converted into 
+  HTML with the Knit HTML button
+- R Code is embedded in between \```{r} and \``` (these quotes are 
+  called back-ticks, right under the tilde ~)
+- You can run R commands with Crtl-Enter, just like with R Scripts
+- The R code will be shown in the marked down documenet unless you 
+  use the echo attribute \```{r, echo=FALSE}
+
+Here is an example (note: remove the "echo=FALSE" or change it to 
+"echo=TRUE" if you want to show the R code in the HTML output). In 
+this example we input data for a car loan evaluation and the program 
+checks if the client qualifes for the loan or not.
+
+```{r}
+
+CarPrice = 30000
+DownPayment = 2000
+LoanYears = 5
+AnnualInterest = 0.04 # i.e., 4%
+AnnualIncome = 60000
+MonthlyObligations = 2300
+
+LoanAmount = CarPrice-DownPayment
+LoanMonths = LoanYears*12
+MonthlyInterest = AnnualInterest/12
+MonthlyPmt = LoanAmount*MonthlyInterest/(1-(1/(1+MonthlyInterest)^LoanMonths))
+MonthlyIncome = AnnualIncome/12
+DisposableIncome = MonthlyIncome-MonthlyObligations
+PmtToDisposableRatio = MonthlyPmt/DisposableIncome
+
+print(sprintf("Car Price: %s", CarPrice))
+print(sprintf("Down Payment: %s", DownPayment))
+print(sprintf("Loan Years: %s", LoanYears))
+print(sprintf("Annual Interest: %s", AnnualInterest))
+print(sprintf("Monthly Disposable Income: %s", DisposableIncome))
+print(sprintf("Your monthly payment is %s", MonthlyPmt))
+print(sprintf("Your disposable income is %s", DisposableIncome))
+print(sprintf("Your monthly payment to disposable income ratio is %s", PmtToDisposableRatio))
+
+if (PmtToDisposableRatio>0.2) # i.e., loan payment is more than 20% if income
+  {print("Your loan application has been declined")} else
+  {print("Your loan application has been approved")}
+
+```

@@ -12,6 +12,18 @@ I created this repo to handle a few tasks:
     - The original script attempts to re-install the packages if you select the whole thing to run
   3. 2KSB makes it difficult to quickly view files that I just want to browse or double check something.  I added a MISC folder to accommodate these types of files
 
+### Useful URLs & Tips
+Tips:
+
+  - The https cloud CRAN is supported by RStudio within AWS and is automatically load balanced to the closest AWS region to your location.  This is usually option 0 or can be included in the install.packages() method.
+    - e.g. install.packages("ggplot2", repos = "https://cran.rstudio.com")
+
+URLs:
+  1. [List of all ISLR Video's](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
+  2. [RMarkdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+  3. [R Statistics Essential Training - Lynda](https://www.lynda.com/R-tutorials/R-Statistics-Essential-Training/142447-2.html)
+
+
 ### File Structure
 
   - README.md

@@ -19,7 +19,7 @@ Tips:
     - e.g. install.packages("ggplot2", repos = "https://cran.rstudio.com")
 
 URLs:
-  1. [List of all ISLR Video's](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
+  1. [List of all ISLR Videos](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
   2. [RMarkdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
   3. [R Statistics Essential Training - Lynda](https://www.lynda.com/R-tutorials/R-Statistics-Essential-Training/142447-2.html)
 

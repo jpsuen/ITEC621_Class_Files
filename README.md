@@ -20,8 +20,9 @@ Tips:
 
 URLs:
   1. [List of all ISLR Videos](https://www.r-bloggers.com/in-depth-introduction-to-machine-learning-in-15-hours-of-expert-videos/)
-  2. [RMarkdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
-  3. [R Statistics Essential Training - Lynda](https://www.lynda.com/R-tutorials/R-Statistics-Essential-Training/142447-2.html)
+  2. [Free PDF of ISLR Text  - 6th Printing](www-bcf.usc.edu/~gareth/ISL/ISLR Sixth Printing.pdf)
+  3. [RMarkdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
+  4. [R Statistics Essential Training - Lynda](https://www.lynda.com/R-tutorials/R-Statistics-Essential-Training/142447-2.html)
 
 
 ### File Structure
@@ -44,6 +45,18 @@ URLs:
     - 9_Decision_Trees
     - 10_Survey_Data_models
     - Other Topics
+  - ISLR Scripts
+    - Index_and_General_info.R
+    - ISLR_Textbook_Scripts_Full.R
+    - Chapter2.R
+    - Chapter3.R
+    - Chapter4.R
+    - Chapter5.R
+    - Chapter6.R
+    - Chapter7.R
+    - Chapter8.R
+    - Chapter9.R
+    - Chapter10.R
   - Misc_Class_Files
     - HW_Template.Rmd
     - ISLR Textbook Scripts.R

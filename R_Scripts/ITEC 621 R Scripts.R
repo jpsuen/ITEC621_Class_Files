@@ -817,6 +817,17 @@ y[2] # Display second vector element
 
 # Vectors can also hold text values (need to enclose the text in quotes)
 
+overForty <- function(x) {
+  x <- ""
+  for (i in x) {
+    if (i > 40 ) {
+      x <- c(x, i)
+    }
+  }
+  return(x)
+}
+
+
 x <- c ("ITEC 610", "ITEC 620", "ITEC 621")
 x # Try it
 x[3] # Try it

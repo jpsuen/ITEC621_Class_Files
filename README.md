@@ -28,6 +28,9 @@ URLs:
 ### File Structure
 
   - README.md
+  - Helpful_Info
+    - qqplot.R
+    - Q-Q Plot.pdf
   - R_Packages
     - ITEC 621 R Packages.R
     - Quick_Install.R

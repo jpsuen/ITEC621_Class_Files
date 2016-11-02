@@ -28,6 +28,8 @@ URLs:
 ### File Structure
 
   - README.md
+  - Leacture_Slides
+    - All Lecture Slides broken down by lesson
   - Helpful_Info
     - qqplot.R
     - Q-Q Plot.pdf

@@ -18,6 +18,7 @@ Scenario 2: You want to predict the management level of your classmates will att
     - If yes, why?
     - If not, which model method would you use?
 
+### Answer
 Scenario 2: Management levels
   1. There are many predictors, including: (1) current GPA; (2) undergraduate degree; (3) years of work experience; (4) managerial level before entering the program;
   2. You can use binary logistic, but with some adjustments, but it is not the best method.

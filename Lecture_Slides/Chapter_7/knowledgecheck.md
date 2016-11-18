@@ -4,6 +4,8 @@ MSETraining is almost always smaller than MSETest because the fit statistics are
 Provide and interpretation for the Sunny*Temperature coefficient
 Provide and interpretation for the Sunny*Humidity coefficient
 
+![alt tag](https://raw.githubusercontent.com/jpsuen/ITEC621_Class_Files/master/Lecture_Slides/Chapter_7/7.5%2Bknowledge%2Bcheck.jpg)
+
 ### Answer
 Both, main and interaction effects have the same sign and are significant. This means that these variables enhance or complement each other. That is, sunny days and warm temperatures lead to more ice cream sales (i.e., more milk needed), but there is a further increased demand when it is both, sunny and hot. Another way to say this is that Sunny days increase ice cream sales, but more so on hot days. Alternatively, hot days increase ice cream sales, but more so if it is sunny.
 This needs to be interpreted more carefully because of the sign change and because the main effect of Humidity is not significant. Because the interaction effect has an opposite sign than the main effects, this indicates that the two predictors offset each other. That is, sunny days experience increased ice cream sales, but less so on humid days. We can’t say anything about how the main effect of Humidity is affected by sunny days because the main effect of Humidity is not significant.

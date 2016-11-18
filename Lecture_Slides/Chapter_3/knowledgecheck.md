@@ -10,6 +10,8 @@ ANOVA tests the difference in means between two groups. We can say that one mean
 ### Scenario 2: 
 The boxplot to the right shows the difference in means across 3 groups. Does it appear that the means are statistically different? Why or why not?
 
+![alt tag](https://raw.githubusercontent.com/jpsuen/ITEC621_Class_Files/master/Lecture_Slides/Chapter_3/3.5%2Bknowledge%2Bcheck.jpg)
+
 ### Answer
 ### Scenario 2: Boxplot
 This needs to be analyzed statistically, but a casual visual inspection of the plots shows that, while the actual means are actually different, the confidence bands are somewhat overlapping across the three groups. So, there doesn’t appear to be a “statistical difference” across the means. To be statistical different, the observations and 95% confidence bands should not overlap much.
@@ -30,6 +32,9 @@ Weekend is 1 for weekend days, 0 otherwise; Sunny is 1 for sunny forecasts, 0 ot
 Question 1: Which predictors are significant? Why?
 Question 2: Interpret the coefficient for Sunny and Temperature
 Question 3: Interpret the R-Square and the model’s p-value
+
+![alt tag](https://raw.githubusercontent.com/jpsuen/ITEC621_Class_Files/master/Lecture_Slides/Chapter_3/3.10%2Bknowledge%2Bcheck.jpg)
+
 
 ### Answer
 Question 1:

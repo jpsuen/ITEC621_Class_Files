@@ -1,0 +1,20 @@
+### Question 
+When applying machine learning methods, you need to split the sample into training and test samples. You fit the model with the training sample and test it with the test sample. This is called “cross-validation”. You often resample using various methods (e.g., K-Fold, Leave-One-Out).
+Why and when exactly do we need to do this for cross-validation? Do we always have to do cross-validation testing?
+Why is the MSETraining < MSETest?
+
+### Answer 
+Cross-validation testing using machine learning methods is always desirable. But it is most important when comparing two competing models. If one model is a subset (i.e., reduced model) of the other (i.e., full model), you can evaluate them with the full data set using F-test or comparing other statistics like adjusted R2, AIC, BIC, etc. But if you are comparing two different models (i.e., have different variables, or employ different methods), the cross-validation testing will provide a better comparison between models and what is their predictive accuracy and prediction variance.
+MSETraining is almost always smaller than MSETest because the fit statistics are better when you test the model with the same data used to build the model. However, when you test the model with different data, the MSE tends to increase.
+
+### Question
+We will cover this in more detail in the next few classes, but base on what you know, please answer:
+What is the “curse of dimensionality”?
+How do you correct for multicollinearity?
+What can you do if you need to include all predictors (i.e., variable selection is not an option)?
+
+### Answer
+High dimensionality is a big problem in predictive modeling. It creates problems like: overfitting, high variance, unstable predictors, multi-collinearity, etc. The ISLR book authors refer to this collection of problems as the “curse of dimensionality”.
+You can correct for multicollinearity by removing variables with high variance inflation factors (VIFs). However, removing variables is some times not an option. See next answer.
+If removing variables is not an option (from a business perspective), you can either use: (1) a penalized method that addresses dimensionality by shrinking the coefficients of the least important predictors, without removing them; or (2) a dimension reduction method that reduces P predictors to M components that are linear combinations of all the predictors. This only works if M is much smaller than P (more on this later).
+MSETraining is almost always smaller than MSETest because the fit statistics are better when you test the model with the same data used to build the model. However, when you test the model with different data, the MSE tends to increase.

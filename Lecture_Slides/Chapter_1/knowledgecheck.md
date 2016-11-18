@@ -1,14 +1,15 @@
+### Question
 Scenario 1: You need to predict how many students will enroll in the MS analytics program next year.
-List 3 key predictors?
-Can you use OLS for this model?
-If yes, why?
-If not, which model method would you use?
+  1. List 3 key predictors?
+  2. Can you use OLS for this model?
+    - If yes, why?
+    - If not, which model method would you use?
 
-Scenario 1:
-  Enrollments
-There are many predictors. 3 possible examples are: (1) enrollments last year; (2) % placement last year 3 months after graduation; (3) average starting salary.
-No, you should not use OLS.
-Many modelers would use OLS, but total enrollments is “count” data, so OLS is not the most appropriate. The data is non-negative and it is truncated at enrollments = 0. The best model is a Poisson regression using generalized linear modeling and using the log of enrollments.
+### Answer
+Scenario 1: Enrollments
+  1. There are many predictors. 3 possible examples are: (1) enrollments last year; (2) % placement last year 3 months after graduation; (3) average starting salary.
+  2. No, you should not use OLS.
+    - Many modelers would use OLS, but total enrollments is “count” data, so OLS is not the most appropriate. The data is non-negative and it is truncated at enrollments = 0. The best model is a Poisson regression using generalized linear modeling and using the log of enrollments.
 
 
 

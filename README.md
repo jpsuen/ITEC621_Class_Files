@@ -5,8 +5,7 @@ I often find that GitHub is an easier place to find everything quickly so this r
 
 ### Overview
 I created this repo to handle a few tasks:
-  1. Organizing the 5611 lines of code from the 'ITEC 621 R Scripts.R' file into individual files specific to each lesson plan
-    - I realize that sometimes line numbers from the original document are mentioned in the lectures so use at your own risk.  
+  1. Organize the compexity of the massive R code script 
   2. Creating a quick script to replace the 'ITEC 621 R Packages.R' file for the following reasons
     - The original file cannot be quickly re-run to load all the required packages.
     - The original script attempts to re-install the packages if you select the whole thing to run
@@ -23,7 +22,7 @@ URLs:
   2. [Free PDF of ISLR Text  - 6th Printing](www-bcf.usc.edu/~gareth/ISL/ISLR Sixth Printing.pdf)
   3. [RMarkdown Cheatsheet](https://www.rstudio.com/wp-content/uploads/2015/02/rmarkdown-cheatsheet.pdf)
   4. [R Statistics Essential Training - Lynda](https://www.lynda.com/R-tutorials/R-Statistics-Essential-Training/142447-2.html)
-
+  5. [togaware OnePageR - A survival guide to Data Science with Readings/Scripts/Presentations](http://togaware.com/onepager/)
 
 ### File Structure
 

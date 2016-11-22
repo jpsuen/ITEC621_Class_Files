@@ -1,20 +1,20 @@
 ## Week 4 - Data Pre-Processing
 
 ### Topics
-  4.1 Weekly Introduction (05:28)
-  4.2 Week 4 Overview
-  4.3 Variable Types (08:19)
-  4.4 Data Transformations (14:24)
-  4.5 Polynominals (06:43)
-  4.6 Box-Cox Transformation (03:09)
-  4.7 Log Models (07:42)
-  4.8 Predicting Count Data (04:53)
-  4.9 Centering (02:42)
-  4.10 Standardization (05:59)
-  4.11 Ranks (03:40)
-  4.12 Lagging (15:46)
-  4.13 Data Reduction (Feature Extraction) (06:11)
-  4.14 Knowledge Check
+  - 4.1 Weekly Introduction (05:28)
+  - 4.2 Week 4 Overview
+  - 4.3 Variable Types (08:19)
+  - 4.4 Data Transformations (14:24)
+  - 4.5 Polynominals (06:43)
+  - 4.6 Box-Cox Transformation (03:09)
+  - 4.7 Log Models (07:42)
+  - 4.8 Predicting Count Data (04:53)
+  - 4.9 Centering (02:42)
+  - 4.10 Standardization (05:59)
+  - 4.11 Ranks (03:40)
+  - 4.12 Lagging (15:46)
+  - 4.13 Data Reduction (Feature Extraction) (06:11)
+  - 4.14 Knowledge Check
     
 ### Question
 Which data transformations will be necessary in each of these cases?

@@ -1,22 +1,22 @@
 ## Week 5 - Machine Learning & Variable Selection and Reduction
 
 ### Topics
-  5.1 Weekly Introduction (01:09)
-  5.2 Week 5 Overview
-  5.3 Machine Learning Overview (12:11)
-  5.4 Bias vs. Variance Tradeoff (05:44)
-  5.5 Error Measures (05:32)
-  5.6 Cross-Validation (04:47)
-  5.7 Holdout Sampling (07:14)
-  5.8 K-Fold (03:15)
-  5.9 Leave One Out (05:07)
-  5.10 Bootstrap (05:34)
-  5.11 Knowledge Check
-  5.12 Dimensionality Issues (15:19)
-  5.13 Multi-Collinearity (07:14)
-  5.14 Variable Selection Methods (14:01)
-  5.15 Step Methods (11:24)
-  5.16 Knowledge Check
+  - 5.1 Weekly Introduction (01:09)
+  - 5.2 Week 5 Overview
+  - 5.3 Machine Learning Overview (12:11)
+  - 5.4 Bias vs. Variance Tradeoff (05:44)
+  - 5.5 Error Measures (05:32)
+  - 5.6 Cross-Validation (04:47)
+  - 5.7 Holdout Sampling (07:14)
+  - 5.8 K-Fold (03:15)
+  - 5.9 Leave One Out (05:07)
+  - 5.10 Bootstrap (05:34)
+  - 5.11 Knowledge Check
+  - 5.12 Dimensionality Issues (15:19)
+  - 5.13 Multi-Collinearity (07:14)
+  - 5.14 Variable Selection Methods (14:01)
+  - 5.15 Step Methods (11:24)
+  - 5.16 Knowledge Check
     
 ### ISLR Videos
   1. [Estimating Prediction Error and Validation Set Appraoch](https://www.youtube.com/watch?v=_2ij6eaaSl0)

@@ -1,17 +1,17 @@
 ## Week 6 - Regularization & Dimension Reduction Models
 
 ### Topics
-  6.1 Weekly Introduction (01:08)
-  6.2 Week 6 Overview Page
-  6.3 Regularization (Penalized or Shrinkage Models) (04:23)
-  6.4 Ridge Regression (10:49)
-  6.5 LASSO Regression (06:15)
-  6.6 Dimension Reduction Models (07:05)
-  6.7 Principal Components Regression (PCR) (06:36)
-  6.8 Principal Components Analysis (PCA) (11:18)
-  6.9 Partial Least Squares (PLS) Regression (06:39)
-  6.10 Knowledge Check
-  6.11 Voices from the Field: Leif Ulstrup (08:43)
+  - 6.1 Weekly Introduction (01:08)
+  - 6.2 Week 6 Overview Page
+  - 6.3 Regularization (Penalized or Shrinkage Models) (04:23)
+  - 6.4 Ridge Regression (10:49)
+  - 6.5 LASSO Regression (06:15)
+  - 6.6 Dimension Reduction Models (07:05)
+  - 6.7 Principal Components Regression (PCR) (06:36)
+  - 6.8 Principal Components Analysis (PCA) (11:18)
+  - 6.9 Partial Least Squares (PLS) Regression (06:39)
+  - 6.10 Knowledge Check
+  - 6.11 Voices from the Field: Leif Ulstrup (08:43)
     
 ### ISLR Videos
   1. [Curse of Dimensionality and Parametric Models](https://www.youtube.com/watch?v=UvxHOkYQl8g)

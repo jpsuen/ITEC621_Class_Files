@@ -1,20 +1,20 @@
 ## Week 7 - Non-Linear Models
 
 ### Topics
-  7.1 Weekly Introduction (00:49)
-  7.2 Week 7 Overview
-  7.3 Non-Linearity Overview (06:27)
-  7.4 Interaction Models (Binary x Continuous) (13:17)
-  7.5 Knowledge Check
-  7.6 Interaction Models (Continuous x Continuous) (15:54)
-  7.7 Polynomial Models (Squared, Cubic, Etc.) (09:57)
-  7.8 Step Models (04:56)
-  7.9 Piecewise Models (05:15)
-  7.10 Piecewise Linear Models (10:22)
-  7.11 Piecewise Polynomial Models (04:04)
-  7.12 Spline (MARS) Models (Multivariate Adaptive Regression Spline) (08:51)
-  7.13 Smoothing Splines (07:03)
-  7.14 Knowledge Check
+  - 7.1 Weekly Introduction (00:49)
+  - 7.2 Week 7 Overview
+  - 7.3 Non-Linearity Overview (06:27)
+  - 7.4 Interaction Models (Binary x Continuous) (13:17)
+  - 7.5 Knowledge Check
+  - 7.6 Interaction Models (Continuous x Continuous) (15:54)
+  - 7.7 Polynomial Models (Squared, Cubic, Etc.) (09:57)
+  - 7.8 Step Models (04:56)
+  - 7.9 Piecewise Models (05:15)
+  - 7.10 Piecewise Linear Models (10:22)
+  - 7.11 Piecewise Polynomial Models (04:04)
+  - 7.12 Spline (MARS) Models (Multivariate Adaptive Regression Spline) (08:51)
+  - 7.13 Smoothing Splines (07:03)
+  - 7.14 Knowledge Check
     
 ### ISLR Videos
   1. [Polynomial Regression and Step Functions (14:59)](https://www.youtube.com/watch?v=gtXQXA7qF3c)

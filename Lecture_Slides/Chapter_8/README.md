@@ -3,14 +3,14 @@
 ### Topics
   8.1. Weekly Introduction
   8.2. Week 8 Overview
-  8.3. Introduction to Classification Models (11:14)
-  8.4. Binomial Logistic Models (24:31)
+  8.3. Introduction to Classification Models
+  8.4. Binomial Logistic Models
   8.5. Knowledge Check
-  8.6. Multinomial Logistic Regression (14:17)
-  8.7. Linear Discriminant Analysis (14:31)
-  8.8. Tuning LDA (09:54)
-  8.9. Quadratic Discriminant Analysis (03:31)
-  8.10. K Nearest Neighbors (05:46)
+  8.6. Multinomial Logistic Regression
+  8.7. Linear Discriminant Analysis
+  8.8. Tuning LDA
+  8.9. Quadratic Discriminant Analysis
+  8.10. K Nearest Neighbors
   8.11. Knowledge Check
     
 ### ISLR Videos

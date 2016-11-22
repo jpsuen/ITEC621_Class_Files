@@ -1,3 +1,31 @@
+## Week 5 - Machine Learning & Variable Selection and Reduction
+
+### Topics
+  5.1 Weekly Introduction (01:09)
+  5.2 Week 5 Overview
+  5.3 Machine Learning Overview (12:11)
+  5.4 Bias vs. Variance Tradeoff (05:44)
+  5.5 Error Measures (05:32)
+  5.6 Cross-Validation (04:47)
+  5.7 Holdout Sampling (07:14)
+  5.8 K-Fold (03:15)
+  5.9 Leave One Out (05:07)
+  5.10 Bootstrap (05:34)
+  5.11 Knowledge Check
+  5.12 Dimensionality Issues (15:19)
+  5.13 Multi-Collinearity (07:14)
+  5.14 Variable Selection Methods (14:01)
+  5.15 Step Methods (11:24)
+  5.16 Knowledge Check
+    
+### ISLR Videos
+  1. [Estimating Prediction Error and Validation Set Appraoch](https://www.youtube.com/watch?v=_2ij6eaaSl0)
+  2. [K-fold Cross-Validation](https://www.youtube.com/watch?v=nZAM5OXrktY)
+  3. [Cross-Validation: The Rigth and Wrong Ways](https://www.youtube.com/watch?v=S06JpVoNaA0)
+  4. [More on the Bootstrap](https://www.youtube.com/watch?v=BzHz0J9a6k0)
+  5. [Lab: Cross-Validation](https://www.youtube.com/watch?v=6dSXlqHAoMk)
+  6. [Lab: The Bootstrap](https://www.youtube.com/watch?v=YVSmsWoBKnA)
+
 ### Question 
 When applying machine learning methods, you need to split the sample into training and test samples. You fit the model with the training sample and test it with the test sample. This is called “cross-validation”. You often resample using various methods (e.g., K-Fold, Leave-One-Out).
   1. Why and when exactly do we need to do this for cross-validation? Do we always have to do cross-validation testing?

@@ -1,3 +1,29 @@
+## Week 7 - Non-Linear Models
+
+### Topics
+  7.1 Weekly Introduction (00:49)
+  7.2 Week 7 Overview
+  7.3 Non-Linearity Overview (06:27)
+  7.4 Interaction Models (Binary x Continuous) (13:17)
+  7.5 Knowledge Check
+  7.6 Interaction Models (Continuous x Continuous) (15:54)
+  7.7 Polynomial Models (Squared, Cubic, Etc.) (09:57)
+  7.8 Step Models (04:56)
+  7.9 Piecewise Models (05:15)
+  7.10 Piecewise Linear Models (10:22)
+  7.11 Piecewise Polynomial Models (04:04)
+  7.12 Spline (MARS) Models (Multivariate Adaptive Regression Spline) (08:51)
+  7.13 Smoothing Splines (07:03)
+  7.14 Knowledge Check
+    
+### ISLR Videos
+  1. [Polynomial Regression and Step Functions (14:59)](https://www.youtube.com/watch?v=gtXQXA7qF3c)
+  2. [Piecewise Polynomials and Splines (13:13)](https://www.youtube.com/watch?v=7ZIqzTNB8lk)
+  3. [Smoothing Splines (10:10)](https://www.youtube.com/watch?v=mxXHJa1DsWQ)
+  4. [Local Regression and Generalized Additive Models (10:45)](https://www.youtube.com/watch?v=N2hBXqPiegQ)
+  5. [Lab: Polynomials (21:11)](https://www.youtube.com/watch?v=uQBnDGu6TYU)
+  6. [Lab: Splines and Generalized Additive Models (12:15)](https://www.youtube.com/watch?v=DCn83aXXuHc)
+
 ### Question
 MSETraining is almost always smaller than MSETest because the fit statistics are better when you test the model with the same data used to build the model. However, when you test the model with different data, the MSE tends to increase.
 

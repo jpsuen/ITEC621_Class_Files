@@ -1,3 +1,30 @@
+## Week 3 - Regression Refresher
+
+### Topics
+  3.1 Weekly Introduction (02:02)
+  3.2 Week 3 Overview
+  3.3 Voices from the Field: Anshu Sinha (07:29)
+  3.4 Covariance, Correlation, and ANOVA Review (14:16)
+  3.5 Knowledge Check
+  3.6 Simple Linear Regression (05:53)
+  3.7 OLS Model Diagnostics (09:57)
+  3.8 Dummy Variables (05:50)
+  3.9 Multi-Variate Regression (05:02)
+  3.10 Knowledge Check
+  3.11 OLS Regression Assumptions (15:04)
+  3.12 Knowledge Check
+  3.13 Voices from the Field: Anshu Sinha (08:31)
+  3.14 Weighted Least Squares (WLS) (12:00)
+  3.15 Generalized Linear Models (GLM) (14:23)
+    
+### ISLR Videos
+  1. [Simple Linear Regression and Confidence Intervals](https://www.youtube.com/watch?v=PsE9UqoWtS4)
+  2. [Hypothesis Testing](https://www.youtube.com/watch?v=J6AdoiNUyWI)
+  3. [Multiple Linear Regression and Interpreting Regression Coefficients](https://www.youtube.com/watch?v=1hbCJyM9ccs)
+  4. [Model Selection and Qualitative Predictors](https://www.youtube.com/watch?v=3T6RXmIHbJ4)
+  5. [Interactions and Nonlinearity](https://www.youtube.com/watch?v=IFzVxLv0TKQ)
+  6. [Lab: Linear Regression](https://www.youtube.com/watch?v=5ONFqIk3RFg)
+
 ### Question
 ### Scenario 1: 
 If ANOVA is about comparing group means, why do we call it “analysis of variance” and not “analysis of means”?

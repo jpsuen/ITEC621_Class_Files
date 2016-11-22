@@ -1,3 +1,35 @@
+## Week 6 - Regularization & Dimension Reduction Models
+
+### Topics
+  6.1 Weekly Introduction (01:08)
+  6.2 Week 6 Overview Page
+  6.3 Regularization (Penalized or Shrinkage Models) (04:23)
+  6.4 Ridge Regression (10:49)
+  6.5 LASSO Regression (06:15)
+  6.6 Dimension Reduction Models (07:05)
+  6.7 Principal Components Regression (PCR) (06:36)
+  6.8 Principal Components Analysis (PCA) (11:18)
+  6.9 Partial Least Squares (PLS) Regression (06:39)
+  6.10 Knowledge Check
+  6.11 Voices from the Field: Leif Ulstrup (08:43)
+    
+### ISLR Videos
+  1. [Curse of Dimensionality and Parametric Models](https://www.youtube.com/watch?v=UvxHOkYQl8g)
+  2. [Linear Model Selection and Best Subset Selection](https://www.youtube.com/watch?v=91si52nk3LA)
+  3. [Forward Stepwise Selection (12:26)](https://www.youtube.com/watch?v=nLpJd_iKmrE)
+  4. [Backward Stepwise Selection (5:26)](https://www.youtube.com/watch?v=NJhMSpI2Uj8)
+  5. [Estimating Test Error Using Mallow’s Cp, AIC, BIC, Adjusted R-squared (14:06)](https://www.youtube.com/watch?v=LkifE44myLc)
+  6. [Estimating Test Error Using Cross-Validation (8:43)](https://www.youtube.com/watch?v=3p9JNaJCOb4)
+  7. [Shrinkage Methods and Ridge Regression (12:37)](https://www.youtube.com/watch?v=cSKzqb0EKS0)
+  8. [The Lasso (15:21)](https://www.youtube.com/watch?v=A5I1G1MfUmA)
+  9. [Tuning Parameter Selection for Ridge Regression and Lasso (5:27)](https://www.youtube.com/watch?v=xMKVUstjXBE)
+  10. [Dimension Reduction (4:45)](https://www.youtube.com/watch?v=QlyROnAjnEk)
+  12. [Principal Components Regression and Partial Least Squares (15:48)](https://www.youtube.com/watch?v=eYxwWGJcOfw)
+  13. [Lab: Best Subset Selection (10:36)](https://www.youtube.com/watch?v=3kwdDGnV8MM)
+  14. [Lab: Forward Stepwise Selection and Model Selection Using Validation Set (10:32)](https://www.youtube.com/watch?v=mv-vdysZIb4)
+  15. [Lab: Model Selection Using Cross-Validation (5:32)](https://www.youtube.com/watch?v=F8MMHCCoALU)
+  16. [Lab: Ridge Regression and Lasso (16:34)](https://www.youtube.com/watch?v=1REe3qSotx8)
+
 ### Question
 In the last few lecture sections we covered various approaches to address high dimensionality issues in predictive models. When would you use each of these approaches?
 

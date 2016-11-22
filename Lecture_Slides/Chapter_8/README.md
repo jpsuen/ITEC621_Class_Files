@@ -1,7 +1,7 @@
 ## Week 8 - Classification Models
 
 ### Topics
-  8.1 Weekly Introduction (00:58)
+  8.1 Weekly Introduction
   8.2 Week 8 Overview
   8.3 Introduction to Classification Models (11:14)
   8.4 Binomial Logistic Models (24:31)

@@ -24,3 +24,13 @@
   6. [Lab: Decision Trees (10:13)](https://www.youtube.com/watch?v=0wZUXtvAtDc)
   7. [Lab: Random Forests and Boosting (15:35)](https://www.youtube.com/watch?v=IY7oWGXb77o)
 
+### Knowledge Checks
+### Questions
+  1. When would you use a logistic, LDA , QDA, or a classification tree? Why?
+  2. If you decide on a classification tree, when would you use plain trees, bagging, random forest or boosting? Why?
+  3. For quantitative predictions, when would you use a regression model vs. a regression tree approach? Why?
+  
+### Answers
+  1. If interpretation is the analysis goal, the Logistic regression is superior to the other approaches. If predictive accuracy is the goals, you can run models using all 4 methods and select one based on cross-validation testing. Again, LDA and QDA require the predictors to be normally distributed, because the predictions are based on estimating probabilities using a normal distribution curve, so you can discard these methods if the predictors are not normally distributed. Logistic regression models do not require predictors to be normally distributed with sufficiently large samples, but other OLS assumptions must be met (except for the dependent variable being binary). So, if some OLS assumptions are severely violated. Classification trees are non-parametric methods, so they are not subject to assumptions. In some cases, trees may be your only choice, but you lose interpretation power.
+  2. Plain trees are generally outperformed by other more advanced tree methods (and by regression models). But overall, tree methods are used primarily for predictive accuracy and not for interpretations, so the best thing is to try all tree methods and select the one with the best cross-validation test statistics.
+  3. The answer is similar to 2. Use regression models if interpretation is the analysis goal and the model assumptions are met. If some model assumptions are severely violated or if the analysis goal is predictive accuracy, try all available regression tree methods and evaluate them with cross-validation testing.
